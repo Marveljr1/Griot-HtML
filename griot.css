@@ -1,0 +1,199 @@
+* {
+    /* border: 1px solid red; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    color: rgb(22, 190, 219);
+}
+
+.background {
+    width: 100%;
+    display: flex;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.showfeats {
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 23, 23);
+    display: flex;
+    font-size: 3em;
+    }
+
+.month-year {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+
+h5 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    border-style: solid;
+    border-color: rgb(61, 17, 17);
+    height: 100%;
+    background-color: rgba(128, 126, 126, 0.123)
+}
+
+.image-container-show {
+    display: flex;
+    padding-left: 5%;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    flex-grow: 1;
+    background-color: rgb(250, 244, 244);
+}
+
+.show-info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    width: 50%;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.button-container {
+    display: flex;
+    padding-top: 10%;
+    width: 20%;
+}
+
+
+.button {
+    display: flex;
+    background-color: goldenrod;
+    justify-content: center;
+}
+
+hr {
+    color: silver;
+    background-color: silver;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+
+
+.bottom {
+    background-color:black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapping {
+    width: 250px;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny {
+    margin: 3px;
+}
